@@ -31,8 +31,8 @@
             font-family: 'Playfair Display', serif;
             background: linear-gradient(135deg, #1a1a1a 0%, #2d1b1b 25%, #1a1a1a 50%, #2d1b1b 75%, #1a1a1a 100%);
             height: 100vh;
-            overflow: hidden;
-            position: fixed;
+            overflow: auto;
+            position: relative;
             width: 100%;
         }
         
@@ -600,13 +600,14 @@
             }
             .card-container {
                 padding: 0.75rem 0.75rem 1rem 0.75rem !important;
-                max-height: calc(100vh - 30px);
-                height: auto;
-                display: flex;
-                flex-direction: column;
-                overflow-y: auto;
-                overflow-x: hidden;
-                box-sizing: border-box;
+                max-height: calc(100vh - 100px) !important;
+                height: auto !important;
+                display: flex !important;
+                flex-direction: column !important;
+                overflow-y: auto !important;
+                overflow-x: hidden !important;
+                box-sizing: border-box !important;
+                margin: auto !important;
             }
             
             .card-container > div:last-child {
@@ -702,14 +703,13 @@
                 of: "",
                 groom: "Ashir Abbas with Mahnoor Imdad",
                 date: "On Thursday, 1st January 2026",
-                sehraBandi: "Sehra Bandi: 6:00 PM Evening",
                 departure: "Departure of Barat: 7:00 PM Night",
                 venue: "Ismail Eye hospital near sabzi mandi",
                 venueLabel: "Venue:",
                 timeLabel: "",
                 closingMessage: "We would be deeply honored and grateful for your presence.",
                 share: "Share Invitation",
-                shareMessage: "You're invited to the Barat ceremony of Ashir Abbas with Mahnoor Imdad On Thursday, 1st January 2026. Sehra Bandi: 6:00 PM Evening, Departure of Barat: 7:00 PM Night. Venue: Ismail Eye hospital near sabzi mandi",
+                shareMessage: "You're invited to the Barat ceremony of Ashir Abbas with Mahnoor Imdad On Thursday, 1st January 2026. Departure of Barat: 7:00 PM Night. Venue: Ismail Eye hospital near sabzi mandi",
                 viewMap: "View on Map",
                 countdownTitle: "Time Remaining",
                 days: "Days",
@@ -723,16 +723,15 @@
                 invite: "ہم آپ کو بصد احترام دعوت دیتے ہیں",
                 ceremony: "برات کی تقریب میں شرکت کے لیے",
                 of: "",
-                groom: "عاشر عباس کے ساتھ مہنور امداد",
+                groom: "عاشر عباس کے ساتھ ماہ نور امداد",
                 date: "جمعرات کو، بتاریخ 1 جنوری 2026",
-                sehraBandi: "سہرا بندی: شام 6 بجے",
                 departure: "برات کی روانگی: رات 7 بجے",
                 venue: "بمقام اسماعیل آئی ہسپتال سبزی منڈی کے قریب",
                 venueLabel: "",
                 timeLabel: "",
                 closingMessage: "آپ کی شرکت ہمارے لیے باعثِ مسرت اور شکریہ کا باعث ہوگی۔",
                 share: "دعوت نامہ شیئر کریں",
-                shareMessage: "آپ کو عاشر عباس کے ساتھ مہنور امداد کے برات کی تقریب میں شرکت کے لیے جمعرات کو، بتاریخ 1 جنوری 2026 سہرا بندی: شام 6 بجے، برات کی روانگی: رات 7 بجے بمقام اسماعیل آئی ہسپتال سبزی منڈی کے قریب دعوت دی جاتی ہے",
+                shareMessage: "آپ کو عاشر عباس کے ساتھ ماہ نور امداد کے برات کی تقریب میں شرکت کے لیے جمعرات کو، بتاریخ 1 جنوری 2026 برات کی روانگی: رات 7 بجے بمقام اسماعیل آئی ہسپتال سبزی منڈی کے قریب دعوت دی جاتی ہے",
                 viewMap: "نقشے پر دیکھیں",
                 countdownTitle: "باقی وقت",
                 days: "دن",
@@ -746,16 +745,15 @@
                 invite: "اسی تہانوں عزت نال دعوت دیندے آں",
                 ceremony: "برات دی تقریب وِچ شرکت لئی",
                 of: "",
-                groom: "عاشر عباس نال مہنور امداد",
+                groom: "عاشر عباس نال ماہ نور امداد",
                 date: "جمعرات نوں، مورخہ 1 جنوری 2026",
-                sehraBandi: "سہرا بندی: شام 6 وڄے",
                 departure: "برات دی روانگی: رات 7 وڄے",
                 venue: "جائے اسماعیل آئی ہسپتال سبزی منڈی دے نیڑے",
                 venueLabel: "",
                 timeLabel: "",
                 closingMessage: "تُہاڈی شرکت ساڈے لئی خوشی تے شکرگزاری دا باعث بنوے گی۔",
                 share: "دعوت نامہ شیئر کرو",
-                shareMessage: "تہانوں عاشر عباس نال مہنور امداد دی برات دی تقریب وِچ شرکت لئی جمعرات نوں، مورخہ 1 جنوری 2026 سہرا بندی: شام 6 وڄے، برات دی روانگی: رات 7 وڄے جائے اسماعیل آئی ہسپتال سبزی منڈی دے نیڑے دعوت دتی جاندی اے",
+                shareMessage: "تہانوں عاشر عباس نال ماہ نور امداد دی برات دی تقریب وِچ شرکت لئی جمعرات نوں، مورخہ 1 جنوری 2026 برات دی روانگی: رات 7 وڄے جائے اسماعیل آئی ہسپتال سبزی منڈی دے نیڑے دعوت دتی جاندی اے",
                 viewMap: "نقشے تے ویکھو",
                 countdownTitle: "باقی وقت",
                 days: "دن",
@@ -769,16 +767,15 @@
                 invite: "تہاکوں پیار نال برات دی تقریب وچ سدا دتا ویندا",
                 ceremony: "",
                 of: "",
-                groom: "عاشر عباس نال مہنور امداد",
+                groom: "عاشر عباس نال ماہ نور امداد",
                 date: "جمعرات کوں، 1 جنوری 2026 تاریخ:",
-                sehraBandi: "سہرا بندی: شام 6 وڄے ویلھا:",
                 departure: "برات دی روانگی: رات 7 وڄے ویلھا:",
                 venue: "اسماعیل آئی ہسپتال سبزی منڈی دے نیڑے جاء:",
                 venueLabel: "",
                 timeLabel: "",
                 closingMessage: "تہاݙی موجودگی ساݙے لئی عزت تے خوشی دی گل ہوسی۔",
                 share: "دعوت نامہ شیئر کرو",
-                shareMessage: "تہاکوں عاشر عباس نال مہنور امداد دی برات دی تقریب وچ شرکت لئی جمعرات کوں، 1 جنوری 2026 سہرا بندی: شام 6 وڄے، برات دی روانگی: رات 7 وڄے اسماعیل آئی ہسپتال سبزی منڈی دے نیڑے دعوت دتی وینٖدی اے",
+                shareMessage: "تہاکوں عاشر عباس نال ماہ نور امداد دی برات دی تقریب وچ شرکت لئی جمعرات کوں، 1 جنوری 2026 برات دی روانگی: رات 7 وڄے اسماعیل آئی ہسپتال سبزی منڈی دے نیڑے دعوت دتی وینٖدی اے",
                 viewMap: "📍 نقشے تے ݙیکھو",
                 countdownTitle: "باقی وقت",
                 days: "دن",
@@ -855,7 +852,7 @@
             );
             
             return (
-                <div className="h-screen pattern-bg pt-0.5 pb-1 md:py-2 px-2 md:px-4 overflow-hidden flex flex-col">
+                <div className="min-h-screen pattern-bg pt-0.5 pb-1 md:py-2 px-2 md:px-4 overflow-y-auto flex flex-col">
                     {/* Language Toggle */}
                     <div className="flex justify-end mb-1 md:mb-2 max-w-4xl mx-auto w-full">
                         <div className="flex flex-wrap gap-1 bg-white rounded-full p-1 shadow-lg scale-in">
@@ -895,8 +892,8 @@
                     </div>
                     
                     {/* Main Invitation Card */}
-                    <div className="max-w-4xl mx-auto flex-1 flex items-start justify-center w-full py-1 md:py-2" style={{ maxHeight: 'calc(100vh - 30px)', minHeight: 'fit-content' }}>
-                        <div className={`bg-gradient-to-br from-white via-red-50 via-gray-50 to-black gold-border rounded-2xl md:rounded-3xl card-shadow p-2 md:p-8 relative overflow-hidden w-full card-container ${getTextClass()}`}>
+                    <div className="max-w-4xl mx-auto flex-1 flex items-center justify-center w-full py-1 md:py-2 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 80px)', minHeight: 'fit-content' }}>
+                        <div className={`bg-white gold-border rounded-2xl md:rounded-3xl card-shadow p-2 md:p-6 relative overflow-hidden w-full card-container ${getTextClass()}`} style={{ maxHeight: 'calc(100vh - 100px)', margin: 'auto' }}>
                             {/* Decorative Corner Elements */}
                             <div className="absolute top-4 left-4 opacity-20">
                                 <div className="barat-ornament"></div>
@@ -981,19 +978,19 @@
                                             <>
                                                 <div>عاشر عباس</div>
                                                 <div>کے ساتھ</div>
-                                                <div>مہنور امداد</div>
+                                                <div>ماہ نور امداد</div>
                                             </>
                                         ) : language === 'punjabi' ? (
                                             <>
                                                 <div>عاشر عباس</div>
                                                 <div>نال</div>
-                                                <div>مہنور امداد</div>
+                                                <div>ماہ نور امداد</div>
                                             </>
                                         ) : language === 'saraiki' ? (
                                             <>
                                                 <div>عاشر عباس</div>
                                                 <div>نال</div>
-                                                <div>مہنور امداد</div>
+                                                <div>ماہ نور امداد</div>
                                             </>
                                         ) : (
                                             t.groom.replace(/&amp;/g, '&')
@@ -1012,10 +1009,6 @@
                                 <div className={`fade-in-up delay-400 space-y-1 md:space-y-1.5 text-gray-800 ${getTextClass()}`}>
                                     <div className="text-lg md:text-xl font-semibold text-red-600 scale-in delay-500">
                                         {t.date}
-                                    </div>
-                                    
-                                    <div className="text-base md:text-lg text-gray-700 slide-in-left delay-500">
-                                        <span className="font-semibold text-red-700">{t.sehraBandi}</span>
                                     </div>
                                     
                                     <div className="text-base md:text-lg text-gray-700 slide-in-right delay-500">
